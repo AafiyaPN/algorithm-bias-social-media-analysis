@@ -60,8 +60,41 @@ However, Twitter demonstrates significantly higher engagement inequality, meanin
 
 This supports the hypothesis that engagement-based ranking systems may reinforce popularity bias.
 
+## Key Insights
+
+- Engagement distribution on social media platforms is **highly unequal**, with a small number of posts receiving most interactions.
+
+- The **Gini coefficient for Twitter (0.931)** indicates extremely high engagement concentration compared to Instagram.
+
+- Instagram shows **moderate inequality (0.379)**, suggesting a more distributed engagement pattern.
+
+- Engagement-based ranking algorithms may **amplify already popular content**, reinforcing visibility inequality.
+
+- Early engagement appears to correlate with higher overall reach, supporting the idea of **algorithmic amplification loops**.
+
+## How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/AafiyaPN/algorithm-bias-social-media-analysis
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Download datasets from the links provided
+
+4. Place datasets in:
+
+data/raw/
+
+5. Run the notebook
+
+notebooks/algorithm_bias_analysis.ipynb
+
 ## Project Structure
 
+```
 algorithm-bias-social-media-analysis
 │
 ├── data (ignored from GitHub)
@@ -73,7 +106,9 @@ algorithm-bias-social-media-analysis
 │
 ├── outputs
 ├── visuals
-└── README.md
+├── README.md
+└── requirements.txt
+```
 
 ## Author
 
